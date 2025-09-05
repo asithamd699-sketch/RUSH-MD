@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "VISPER-MD&GkAi2ZpS#Ha2jIplgAYRj12CWOnpWyTU6DF9uI04mSWWKzjndReQ",
+    SESSION_ID: process.env.SESSION_ID || "",
     // add your Session Id make sure it starts with VISPER-MD&
 
     CINESUB_API_KEY: process.env.CINESUB_API_KEY || "e0795fcd-58a9-4c0e-994d-648f146077cb",
     // add your manoj Cinesubz api site apikey 
 
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || "VISPER-MD&35gW0ShD#O2B427oBLHWcw0uL7wC8Bjc3_atYgRBhxZyVT6yRO_o",
     // add your prefix for bot
 
     BOT_NAME: process.env.BOT_NAME || "RUSH-MD",
